@@ -1,0 +1,8 @@
+C:\Users\Big Ben\Desktop\project\project-2\project\2y_project\2y_project\2y_project\obj\Debug\2y_project.csprojAssemblyReference.cache
+C:\Users\Big Ben\Desktop\project\project-2\project\2y_project\2y_project\2y_project\obj\Debug\truck.Form1.resources
+C:\Users\Big Ben\Desktop\project\project-2\project\2y_project\2y_project\2y_project\obj\Debug\truck.Form2.resources
+C:\Users\Big Ben\Desktop\project\project-2\project\2y_project\2y_project\2y_project\obj\Debug\truck.Form3.resources
+C:\Users\Big Ben\Desktop\project\project-2\project\2y_project\2y_project\2y_project\obj\Debug\truck.Form4.resources
+C:\Users\Big Ben\Desktop\project\project-2\project\2y_project\2y_project\2y_project\obj\Debug\_2y_project.Properties.Resources.resources
+C:\Users\Big Ben\Desktop\project\project-2\project\2y_project\2y_project\2y_project\obj\Debug\2y_project.csproj.GenerateResource.cache
+C:\Users\Big Ben\Desktop\project\project-2\project\2y_project\2y_project\2y_project\obj\Debug\2y_project.csproj.CoreCompileInputs.cache

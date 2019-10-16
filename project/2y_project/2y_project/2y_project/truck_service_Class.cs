@@ -15,7 +15,7 @@ namespace Classbuilds
         private int service_time;
         private DateTime service_date;
         private int truck_ID;
-
+        
         public truck_service_Class(int service_ID, string service_discription, int service_mileage, int next_service_mileage, int service_time, DateTime service_date, int truck_ID)
         {
             this.Service_ID = service_ID;
