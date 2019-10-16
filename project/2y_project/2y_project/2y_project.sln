@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2y_project", "2y_project\2y_project.csproj", "{1B3B59C1-6D49-4F55-8CFA-36F70DBF2632}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4A1A3BCC-A50A-48CD-8320-2A44024C03AE}"
+	ProjectSection(SolutionItems) = preProject
+		2y_project\AntiNoob_Class.cs = 2y_project\AntiNoob_Class.cs
+		2y_project\CustomerClass.cs = 2y_project\CustomerClass.cs
+		2y_project\DataHandlerClass.cs = 2y_project\DataHandlerClass.cs
+		2y_project\Fuel_Type_Class.cs = 2y_project\Fuel_Type_Class.cs
+		2y_project\oder_trip_details_Class.cs = 2y_project\oder_trip_details_Class.cs
+		2y_project\PriceCalculator_Class.cs = 2y_project\PriceCalculator_Class.cs
+		2y_project\trip_Class.cs = 2y_project\trip_Class.cs
+		2y_project\trip_finacial_Class.cs = 2y_project\trip_finacial_Class.cs
+		2y_project\truck_Class.cs = 2y_project\truck_Class.cs
+		2y_project\truck_service_Class.cs = 2y_project\truck_service_Class.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B3B59C1-6D49-4F55-8CFA-36F70DBF2632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B3B59C1-6D49-4F55-8CFA-36F70DBF2632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B3B59C1-6D49-4F55-8CFA-36F70DBF2632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B3B59C1-6D49-4F55-8CFA-36F70DBF2632}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5174750E-A6CA-4482-BEEB-963D546EDF42}
+	EndGlobalSection
+EndGlobal
