@@ -1,6 +1,6 @@
 ﻿namespace truck
 {
-    partial class Form3
+    partial class frm_Customer_Dash
     {
         /// <summary>
         /// Required designer variable.
@@ -618,19 +618,18 @@
             // 
             // pictureBox1
             // 
-           // this.pictureBox1.Image = global::_2y_project.Properties.Resources.ezgif_com_resize;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(68, 65);
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
-            // Form3
+            // frm_Customer_Dash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.ClientSize = new System.Drawing.Size(1123, 864);
+            this.ClientSize = new System.Drawing.Size(1123, 749);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.tabControl1);
@@ -638,7 +637,7 @@
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form3";
+            this.Name = "frm_Customer_Dash";
             this.Text = "Form3";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);

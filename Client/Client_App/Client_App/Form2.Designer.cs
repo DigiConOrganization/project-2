@@ -1,6 +1,6 @@
 ﻿namespace truck
 {
-    partial class Form2
+    partial class frm_Sign_up
     {
         /// <summary>
         /// Required designer variable.
@@ -206,14 +206,13 @@
             // 
             // pictureBox1
             // 
-           // this.pictureBox1.Image = global::_2y_project.Properties.Resources.ezgif_com_resize;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(68, 65);
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
-            // Form2
+            // frm_Sign_up
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -237,7 +236,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form2";
+            this.Name = "frm_Sign_up";
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

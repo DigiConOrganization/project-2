@@ -1,0 +1,7 @@
+C:\Users\Big Ben\Desktop\project\project-2\Client\Client_App\Client_App\obj\Debug\Client_App.csprojAssemblyReference.cache
+C:\Users\Big Ben\Desktop\project\project-2\Client\Client_App\Client_App\obj\Debug\truck.frm_Login.resources
+C:\Users\Big Ben\Desktop\project\project-2\Client\Client_App\Client_App\obj\Debug\truck.frm_Sign_up.resources
+C:\Users\Big Ben\Desktop\project\project-2\Client\Client_App\Client_App\obj\Debug\truck.frm_Customer_Dash.resources
+C:\Users\Big Ben\Desktop\project\project-2\Client\Client_App\Client_App\obj\Debug\Client_App.Properties.Resources.resources
+C:\Users\Big Ben\Desktop\project\project-2\Client\Client_App\Client_App\obj\Debug\Client_App.csproj.GenerateResource.cache
+C:\Users\Big Ben\Desktop\project\project-2\Client\Client_App\Client_App\obj\Debug\Client_App.csproj.CoreCompileInputs.cache

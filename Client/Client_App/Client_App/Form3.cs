@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace truck
+namespace Client_App
 {
-    public partial class Form3 : Form
+    public partial class frm_Customer_Dash : Form
     {
-        public Form3()
+        public frm_Customer_Dash()
         {
             InitializeComponent();
         }
