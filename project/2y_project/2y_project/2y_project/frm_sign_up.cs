@@ -8,16 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Client_App
+namespace truck
 {
-    public partial class frm_Customer_Dash : Form
+    public partial class Form2 : Form
     {
-         int c_ID;
-        public frm_Customer_Dash()
+        public Form2()
         {
             InitializeComponent();
         }
 
-      
+        private void Label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

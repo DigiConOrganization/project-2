@@ -31,6 +31,7 @@ namespace Client_App
                 cd.Region = this.Region;
                 cd.Show();
                 this.Hide();
+                
 
             }
             else

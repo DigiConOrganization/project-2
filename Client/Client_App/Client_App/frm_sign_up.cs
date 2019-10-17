@@ -20,7 +20,7 @@ namespace Client_App
 
         private void Btn_signup_Click(object sender, EventArgs e)
         {
-            if ((txt_signup_cell.Text == "") || ( txt_signup_email.Text == "") || (txt_signup_name.Text == "") || (txt_signup_password.Text == "") || (txt_signup_surname.Text == "") ||)
+            if ((txt_signup_cell.Text == "") || ( txt_signup_email.Text == "") || (txt_signup_name.Text == "") || (txt_signup_password.Text == "") || (txt_signup_surname.Text == "") )     //Anti noob(check for empty fields)
             {
                 MessageBox.Show("please don't leave any fields empty");
             }

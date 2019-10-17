@@ -51,6 +51,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.lstbx_user_info = new System.Windows.Forms.ListBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label20 = new System.Windows.Forms.Label();
+            this.dgv_past_oders = new System.Windows.Forms.DataGridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.label19 = new System.Windows.Forms.Label();
@@ -74,18 +76,17 @@
             this.label5 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label20 = new System.Windows.Forms.Label();
+            this.btn_rent = new System.Windows.Forms.Button();
             this.tbc_Customer.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_past_oders)).BeginInit();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // tbc_Customer
@@ -173,7 +174,6 @@
             this.label14.Size = new System.Drawing.Size(170, 20);
             this.label14.TabIndex = 35;
             this.label14.Text = "Repeat New Password";
-            
             // 
             // label13
             // 
@@ -283,7 +283,6 @@
             this.label7.Size = new System.Drawing.Size(94, 20);
             this.label7.TabIndex = 2;
             this.label7.Text = "Update Info";
-            
             // 
             // label6
             // 
@@ -308,7 +307,7 @@
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.label20);
-            this.tabPage2.Controls.Add(this.dataGridView1);
+            this.tabPage2.Controls.Add(this.dgv_past_oders);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -316,6 +315,25 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Past orders";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label20.Location = new System.Drawing.Point(327, 23);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(184, 29);
+            this.label20.TabIndex = 1;
+            this.label20.Text = "PAST ORDERS";
+            // 
+            // dgv_past_oders
+            // 
+            this.dgv_past_oders.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_past_oders.Location = new System.Drawing.Point(42, 65);
+            this.dgv_past_oders.Name = "dgv_past_oders";
+            this.dgv_past_oders.Size = new System.Drawing.Size(739, 435);
+            this.dgv_past_oders.TabIndex = 0;
             // 
             // tabPage3
             // 
@@ -343,6 +361,7 @@
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.Controls.Add(this.btn_rent);
             this.splitContainer1.Panel2.Controls.Add(this.cmb_time);
             this.splitContainer1.Panel2.Controls.Add(this.label18);
             this.splitContainer1.Panel2.Controls.Add(this.label17);
@@ -369,7 +388,6 @@
             this.label19.Size = new System.Drawing.Size(119, 20);
             this.label19.TabIndex = 4;
             this.label19.Text = "Time of pick up ";
-            
             // 
             // label1
             // 
@@ -380,7 +398,6 @@
             this.label1.Size = new System.Drawing.Size(83, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Truck Size";
-            
             // 
             // label2
             // 
@@ -391,7 +408,6 @@
             this.label2.Size = new System.Drawing.Size(90, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Destination";
-           
             // 
             // label4
             // 
@@ -468,7 +484,6 @@
             this.label15.Size = new System.Drawing.Size(278, 20);
             this.label15.TabIndex = 12;
             this.label15.Text = "Small Truck : 5 Ton\'s , 35 cubic meters";
-            
             // 
             // cmb_year
             // 
@@ -605,11 +620,6 @@
             this.label5.Size = new System.Drawing.Size(173, 25);
             this.label5.TabIndex = 15;
             this.label5.Text = "Customer Dash";
-            
-            // 
-            // toolTip1
-            // 
-         
             // 
             // pictureBox1
             // 
@@ -619,24 +629,16 @@
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
-            // dataGridView1
+            // btn_rent
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(42, 65);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(739, 435);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label20.Location = new System.Drawing.Point(327, 23);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(184, 29);
-            this.label20.TabIndex = 1;
-            this.label20.Text = "PAST ORDERS";
+            this.btn_rent.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btn_rent.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_rent.Location = new System.Drawing.Point(277, 483);
+            this.btn_rent.Name = "btn_rent";
+            this.btn_rent.Size = new System.Drawing.Size(144, 41);
+            this.btn_rent.TabIndex = 17;
+            this.btn_rent.Text = "Request Quote";
+            this.btn_rent.UseVisualStyleBackColor = false;
             // 
             // frm_Customer_Dash
             // 
@@ -658,6 +660,7 @@
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_past_oders)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
@@ -666,7 +669,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -720,6 +722,7 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.ComboBox cmb_time;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgv_past_oders;
+        private System.Windows.Forms.Button btn_rent;
     }
 }

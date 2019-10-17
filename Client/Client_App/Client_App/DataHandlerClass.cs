@@ -66,7 +66,7 @@ namespace Client_App
 
         #region Pull Data
       
-        public DataTable GetDataFromSource(string storedProcedureName)  // tessting if database exists.
+        public DataTable GetDataFromSource(string storedProcedureName)  //display in data gird view.
         {
 
             try
