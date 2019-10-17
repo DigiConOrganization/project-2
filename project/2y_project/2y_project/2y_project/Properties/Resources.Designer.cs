@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace truck.Properties {
+namespace _2y_project.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace truck.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("truck.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("_2y_project.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -76,6 +76,16 @@ namespace truck.Properties {
         internal static System.Drawing.Bitmap ezgif_com_resize {
             get {
                 object obj = ResourceManager.GetObject("ezgif.com-resize", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_v2 {
+            get {
+                object obj = ResourceManager.GetObject("logo_v2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

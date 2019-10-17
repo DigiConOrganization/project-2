@@ -15,9 +15,6 @@ namespace truck
         public Form4()
         {
             InitializeComponent();
-            EMPDASH.Appearance = TabAppearance.FlatButtons;
-            EMPDASH.ItemSize = new Size(0, 1);
-            EMPDASH.SizeMode = TabSizeMode.Fixed;
         }
 
         private void Label5_Click(object sender, EventArgs e)
@@ -36,11 +33,6 @@ namespace truck
         }
 
         private void Label23_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
         {
 
         }

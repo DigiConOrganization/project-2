@@ -20,7 +20,7 @@ namespace Classbuilds
         private SqlCommand command;
         private SqlDataAdapter adapter;
         private DataTable datatable;
-        public Datahandler(string connectionstringP = "default") 
+        public Datahandler(string connectionstringP = "@Data Source=(LocalDb).LocalDBTruckie;Initial Catalog=Truckie;Integrated Security=True") 
         {
             this.connectionstring = ConfigurationManager.ConnectionStrings[connectionstringP].ConnectionString;
             connection = new SqlConnection(this.connectionstring);
