@@ -16,7 +16,9 @@ namespace Client_App
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            // Application.Run(new frm_Login());
+            Application.Run(new frm_Customer_Dash());
+            //Application.Run(new frm_Sign_up());
         }
     }
 }

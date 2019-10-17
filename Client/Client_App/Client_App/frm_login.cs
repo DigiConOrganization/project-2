@@ -24,7 +24,7 @@ namespace Client_App
           
             
             
-            User_Class us = new User_Class(customer_id,txt_login_name.Text,txt_login_password.Text);
+            User_Class us = new User_Class(customer_id,txt_emp_username.Text,txt_emp_pass.Text);
             if (us.GetCustomerLoginInfo())
             {
                 frm_Customer_Dash cd = new frm_Customer_Dash();         //If GetCustomerLoginInfo = true. move to frm_Customer_Dash
@@ -48,5 +48,7 @@ namespace Client_App
             fs.Show();
             this.Hide();
         }
+
+        
     }
 }

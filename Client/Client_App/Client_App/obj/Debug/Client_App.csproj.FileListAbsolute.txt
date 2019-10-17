@@ -5,3 +5,15 @@ C:\Users\Big Ben\Desktop\project\project-2\Client\Client_App\Client_App\obj\Debu
 C:\Users\Big Ben\Desktop\project\project-2\Client\Client_App\Client_App\obj\Debug\Client_App.Properties.Resources.resources
 C:\Users\Big Ben\Desktop\project\project-2\Client\Client_App\Client_App\obj\Debug\Client_App.csproj.GenerateResource.cache
 C:\Users\Big Ben\Desktop\project\project-2\Client\Client_App\Client_App\obj\Debug\Client_App.csproj.CoreCompileInputs.cache
+C:\Users\Big Ben\Desktop\project\project-2new\Client\Client_App\Client_App\obj\Debug\Client_App.csprojAssemblyReference.cache
+C:\Users\Big Ben\Desktop\project\project-2new\Client\Client_App\Client_App\obj\Debug\Client_App.frm_Login.resources
+C:\Users\Big Ben\Desktop\project\project-2new\Client\Client_App\Client_App\obj\Debug\Client_App.frm_Sign_up.resources
+C:\Users\Big Ben\Desktop\project\project-2new\Client\Client_App\Client_App\obj\Debug\Client_App.frm_Customer_Dash.resources
+C:\Users\Big Ben\Desktop\project\project-2new\Client\Client_App\Client_App\obj\Debug\Client_App.Properties.Resources.resources
+C:\Users\Big Ben\Desktop\project\project-2new\Client\Client_App\Client_App\obj\Debug\Client_App.csproj.GenerateResource.cache
+C:\Users\Big Ben\Desktop\project\project-2new\Client\Client_App\Client_App\obj\Debug\Client_App.csproj.CoreCompileInputs.cache
+C:\Users\Big Ben\Desktop\project\project-2new\Client\Client_App\Client_App\bin\Debug\Client_App.exe.config
+C:\Users\Big Ben\Desktop\project\project-2new\Client\Client_App\Client_App\bin\Debug\Client_App.exe
+C:\Users\Big Ben\Desktop\project\project-2new\Client\Client_App\Client_App\bin\Debug\Client_App.pdb
+C:\Users\Big Ben\Desktop\project\project-2new\Client\Client_App\Client_App\obj\Debug\Client_App.exe
+C:\Users\Big Ben\Desktop\project\project-2new\Client\Client_App\Client_App\obj\Debug\Client_App.pdb
