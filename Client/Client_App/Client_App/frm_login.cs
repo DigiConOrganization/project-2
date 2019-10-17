@@ -17,29 +17,7 @@ namespace Client_App
             InitializeComponent();
         }
 
-        private void Btn_login_Click(object sender, EventArgs e)
-        {
-            int customer_id;
-            customer_id = 0;
-          
-            
-            
-            User_Class us = new User_Class(customer_id,txt_emp_username.Text,txt_emp_pass.Text);
-            if (us.GetCustomerLoginInfo())
-            {
-                frm_Customer_Dash cd = new frm_Customer_Dash();         //If GetCustomerLoginInfo = true. move to frm_Customer_Dash
-                cd.Region = this.Region;
-                cd.Show();
-                this.Hide();
-                
-
-            }
-            else
-            {
-                MessageBox.Show("The username or password is incorect");
-            }
-
-        }
+       
 
         private void Btn_new_customer_Click(object sender, EventArgs e)
         {
@@ -49,6 +27,29 @@ namespace Client_App
             this.Hide();
         }
 
-        
+        private void Btn_login_Click_1(object sender, EventArgs e)
+        {
+
+            int customer_id;
+            customer_id = 0;
+
+
+
+            User_Class us = new User_Class(customer_id, txt_emp_username.Text, txt_emp_pass.Text);
+            if (us.GetCustomerLoginInfo())
+            {
+                frm_Customer_Dash cd = new frm_Customer_Dash();         //If GetCustomerLoginInfo = true. move to frm_Customer_Dash
+                cd.Region = this.Region;
+                cd.Show();
+                this.Hide();
+
+
+            }
+            else
+            {
+                MessageBox.Show("The username or password is incorect");
+            }
+
+        }
     }
 }

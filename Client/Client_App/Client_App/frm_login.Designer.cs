@@ -85,6 +85,7 @@
             this.btn_login.TabIndex = 50;
             this.btn_login.Text = "Login";
             this.btn_login.UseVisualStyleBackColor = false;
+            this.btn_login.Click += new System.EventHandler(this.Btn_login_Click_1);
             // 
             // txt_emp_pass
             // 

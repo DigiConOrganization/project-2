@@ -11,7 +11,7 @@ using System.Collections;
 
 namespace Client_App
 {
-    class User_Class
+    public class User_Class
     {
         private int customer_ID;
         private string customer_username;
