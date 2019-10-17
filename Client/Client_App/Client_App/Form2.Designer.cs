@@ -1,4 +1,4 @@
-﻿namespace truck
+﻿namespace Client_App
 {
     partial class frm_Sign_up
     {
@@ -28,35 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_signup = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.txt_signup_cell = new System.Windows.Forms.TextBox();
+            this.txt_signup_email = new System.Windows.Forms.TextBox();
+            this.txt_signup_password = new System.Windows.Forms.TextBox();
+            this.txt_signup_surname = new System.Windows.Forms.TextBox();
+            this.txt_signup_name = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button2
+            // btn_signup
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(130, 497);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 39);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Sign up";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_signup.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_signup.Location = new System.Drawing.Point(130, 497);
+            this.btn_signup.Name = "btn_signup";
+            this.btn_signup.Size = new System.Drawing.Size(88, 39);
+            this.btn_signup.TabIndex = 12;
+            this.btn_signup.Text = "Sign up";
+            this.btn_signup.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -75,7 +71,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(12, 433);
+            this.label2.Location = new System.Drawing.Point(12, 258);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 20);
             this.label2.TabIndex = 9;
@@ -125,84 +121,40 @@
             this.label6.TabIndex = 18;
             this.label6.Text = "Email";
             // 
-            // textBox3
+            // txt_signup_cell
             // 
-            this.textBox3.Location = new System.Drawing.Point(124, 183);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(199, 20);
-            this.textBox3.TabIndex = 19;
+            this.txt_signup_cell.Location = new System.Drawing.Point(124, 183);
+            this.txt_signup_cell.Name = "txt_signup_cell";
+            this.txt_signup_cell.Size = new System.Drawing.Size(199, 20);
+            this.txt_signup_cell.TabIndex = 19;
             // 
-            // textBox4
+            // txt_signup_email
             // 
-            this.textBox4.Location = new System.Drawing.Point(124, 218);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(199, 20);
-            this.textBox4.TabIndex = 20;
+            this.txt_signup_email.Location = new System.Drawing.Point(124, 218);
+            this.txt_signup_email.Name = "txt_signup_email";
+            this.txt_signup_email.Size = new System.Drawing.Size(199, 20);
+            this.txt_signup_email.TabIndex = 20;
             // 
-            // textBox5
+            // txt_signup_password
             // 
-            this.textBox5.Location = new System.Drawing.Point(124, 433);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(199, 20);
-            this.textBox5.TabIndex = 21;
+            this.txt_signup_password.Location = new System.Drawing.Point(124, 258);
+            this.txt_signup_password.Name = "txt_signup_password";
+            this.txt_signup_password.Size = new System.Drawing.Size(199, 20);
+            this.txt_signup_password.TabIndex = 21;
             // 
-            // textBox1
+            // txt_signup_surname
             // 
-            this.textBox1.Location = new System.Drawing.Point(124, 147);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(199, 20);
-            this.textBox1.TabIndex = 22;
+            this.txt_signup_surname.Location = new System.Drawing.Point(124, 147);
+            this.txt_signup_surname.Name = "txt_signup_surname";
+            this.txt_signup_surname.Size = new System.Drawing.Size(199, 20);
+            this.txt_signup_surname.TabIndex = 22;
             // 
-            // textBox2
+            // txt_signup_name
             // 
-            this.textBox2.Location = new System.Drawing.Point(124, 110);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(199, 20);
-            this.textBox2.TabIndex = 23;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.radioButton1.Location = new System.Drawing.Point(16, 319);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(97, 24);
-            this.radioButton1.TabIndex = 24;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Employee";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.radioButton2.Location = new System.Drawing.Point(16, 276);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(96, 24);
-            this.radioButton2.TabIndex = 25;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Customer";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(252, 375);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(71, 20);
-            this.textBox6.TabIndex = 26;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(16, 373);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(137, 20);
-            this.label7.TabIndex = 27;
-            this.label7.Text = "Employee number";
+            this.txt_signup_name.Location = new System.Drawing.Point(124, 110);
+            this.txt_signup_name.Name = "txt_signup_name";
+            this.txt_signup_name.Size = new System.Drawing.Size(199, 20);
+            this.txt_signup_name.TabIndex = 23;
             // 
             // pictureBox1
             // 
@@ -218,21 +170,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
             this.ClientSize = new System.Drawing.Size(365, 599);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txt_signup_name);
+            this.Controls.Add(this.txt_signup_surname);
+            this.Controls.Add(this.txt_signup_password);
+            this.Controls.Add(this.txt_signup_email);
+            this.Controls.Add(this.txt_signup_cell);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btn_signup);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -247,21 +195,17 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_signup;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txt_signup_cell;
+        private System.Windows.Forms.TextBox txt_signup_email;
+        private System.Windows.Forms.TextBox txt_signup_password;
+        private System.Windows.Forms.TextBox txt_signup_surname;
+        private System.Windows.Forms.TextBox txt_signup_name;
     }
 }

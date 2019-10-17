@@ -1,4 +1,4 @@
-﻿namespace truck
+﻿namespace Client_App
 {
     partial class frm_Customer_Dash
     {
@@ -29,29 +29,28 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tbc_Customer = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.btn_reset_pass = new System.Windows.Forms.Button();
+            this.btn_update = new System.Windows.Forms.Button();
+            this.txt_re_pass = new System.Windows.Forms.TextBox();
+            this.txt_new_pass = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txt_old_pass = new System.Windows.Forms.TextBox();
+            this.txt_name = new System.Windows.Forms.TextBox();
+            this.txt_surname = new System.Windows.Forms.TextBox();
+            this.txt_email = new System.Windows.Forms.TextBox();
+            this.txt_cell_number = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.USERINFO = new System.Windows.Forms.ListBox();
+            this.lstbx_user_info = new System.Windows.Forms.ListBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.PastOrderInfo = new System.Windows.Forms.ListBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.label19 = new System.Windows.Forms.Label();
@@ -59,23 +58,25 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.cmb_time = new System.Windows.Forms.ComboBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.Small = new System.Windows.Forms.RadioButton();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.cmb_year = new System.Windows.Forms.ComboBox();
+            this.cmb_month = new System.Windows.Forms.ComboBox();
+            this.cmb_date = new System.Windows.Forms.ComboBox();
+            this.rb_large = new System.Windows.Forms.RadioButton();
+            this.txt_destination = new System.Windows.Forms.TextBox();
+            this.rb_medium = new System.Windows.Forms.RadioButton();
+            this.rb_small = new System.Windows.Forms.RadioButton();
+            this.txt_pick_up_point = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.tabControl1.SuspendLayout();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label20 = new System.Windows.Forms.Label();
+            this.tbc_Customer.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
@@ -84,40 +85,41 @@
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // tbc_Customer
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(12, 83);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1099, 770);
-            this.tabControl1.TabIndex = 0;
+            this.tbc_Customer.Controls.Add(this.tabPage1);
+            this.tbc_Customer.Controls.Add(this.tabPage2);
+            this.tbc_Customer.Controls.Add(this.tabPage3);
+            this.tbc_Customer.Location = new System.Drawing.Point(12, 83);
+            this.tbc_Customer.Name = "tbc_Customer";
+            this.tbc_Customer.SelectedIndex = 0;
+            this.tbc_Customer.Size = new System.Drawing.Size(1099, 770);
+            this.tbc_Customer.TabIndex = 0;
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.button2);
-            this.tabPage1.Controls.Add(this.button1);
-            this.tabPage1.Controls.Add(this.textBox9);
-            this.tabPage1.Controls.Add(this.textBox8);
+            this.tabPage1.Controls.Add(this.btn_reset_pass);
+            this.tabPage1.Controls.Add(this.btn_update);
+            this.tabPage1.Controls.Add(this.txt_re_pass);
+            this.tabPage1.Controls.Add(this.txt_new_pass);
             this.tabPage1.Controls.Add(this.label14);
             this.tabPage1.Controls.Add(this.label13);
             this.tabPage1.Controls.Add(this.label12);
-            this.tabPage1.Controls.Add(this.textBox7);
-            this.tabPage1.Controls.Add(this.textBox3);
-            this.tabPage1.Controls.Add(this.textBox4);
-            this.tabPage1.Controls.Add(this.textBox5);
-            this.tabPage1.Controls.Add(this.textBox6);
+            this.tabPage1.Controls.Add(this.txt_old_pass);
+            this.tabPage1.Controls.Add(this.txt_name);
+            this.tabPage1.Controls.Add(this.txt_surname);
+            this.tabPage1.Controls.Add(this.txt_email);
+            this.tabPage1.Controls.Add(this.txt_cell_number);
             this.tabPage1.Controls.Add(this.label8);
             this.tabPage1.Controls.Add(this.label9);
             this.tabPage1.Controls.Add(this.label10);
             this.tabPage1.Controls.Add(this.label11);
             this.tabPage1.Controls.Add(this.label7);
             this.tabPage1.Controls.Add(this.label6);
-            this.tabPage1.Controls.Add(this.USERINFO);
+            this.tabPage1.Controls.Add(this.lstbx_user_info);
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -126,41 +128,41 @@
             this.tabPage1.Text = "Account";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btn_reset_pass
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(863, 428);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(101, 58);
-            this.button2.TabIndex = 39;
-            this.button2.Text = "Reset Password";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_reset_pass.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btn_reset_pass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_reset_pass.Location = new System.Drawing.Point(863, 428);
+            this.btn_reset_pass.Name = "btn_reset_pass";
+            this.btn_reset_pass.Size = new System.Drawing.Size(101, 58);
+            this.btn_reset_pass.TabIndex = 39;
+            this.btn_reset_pass.Text = "Reset Password";
+            this.btn_reset_pass.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btn_update
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(831, 219);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 41);
-            this.button1.TabIndex = 38;
-            this.button1.Text = "Update";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_update.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btn_update.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_update.Location = new System.Drawing.Point(831, 219);
+            this.btn_update.Name = "btn_update";
+            this.btn_update.Size = new System.Drawing.Size(90, 41);
+            this.btn_update.TabIndex = 38;
+            this.btn_update.Text = "Update";
+            this.btn_update.UseVisualStyleBackColor = false;
             // 
-            // textBox9
+            // txt_re_pass
             // 
-            this.textBox9.Location = new System.Drawing.Point(817, 385);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(190, 26);
-            this.textBox9.TabIndex = 37;
+            this.txt_re_pass.Location = new System.Drawing.Point(817, 385);
+            this.txt_re_pass.Name = "txt_re_pass";
+            this.txt_re_pass.Size = new System.Drawing.Size(190, 26);
+            this.txt_re_pass.TabIndex = 37;
             // 
-            // textBox8
+            // txt_new_pass
             // 
-            this.textBox8.Location = new System.Drawing.Point(817, 336);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(190, 26);
-            this.textBox8.TabIndex = 36;
+            this.txt_new_pass.Location = new System.Drawing.Point(817, 336);
+            this.txt_new_pass.Name = "txt_new_pass";
+            this.txt_new_pass.Size = new System.Drawing.Size(190, 26);
+            this.txt_new_pass.TabIndex = 36;
             // 
             // label14
             // 
@@ -193,40 +195,40 @@
             this.label12.TabIndex = 33;
             this.label12.Text = "Old Password";
             // 
-            // textBox7
+            // txt_old_pass
             // 
-            this.textBox7.Location = new System.Drawing.Point(817, 290);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(190, 26);
-            this.textBox7.TabIndex = 32;
+            this.txt_old_pass.Location = new System.Drawing.Point(817, 290);
+            this.txt_old_pass.Name = "txt_old_pass";
+            this.txt_old_pass.Size = new System.Drawing.Size(190, 26);
+            this.txt_old_pass.TabIndex = 32;
             // 
-            // textBox3
+            // txt_name
             // 
-            this.textBox3.Location = new System.Drawing.Point(779, 79);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(199, 26);
-            this.textBox3.TabIndex = 31;
+            this.txt_name.Location = new System.Drawing.Point(779, 79);
+            this.txt_name.Name = "txt_name";
+            this.txt_name.Size = new System.Drawing.Size(199, 26);
+            this.txt_name.TabIndex = 31;
             // 
-            // textBox4
+            // txt_surname
             // 
-            this.textBox4.Location = new System.Drawing.Point(779, 116);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(199, 26);
-            this.textBox4.TabIndex = 30;
+            this.txt_surname.Location = new System.Drawing.Point(779, 116);
+            this.txt_surname.Name = "txt_surname";
+            this.txt_surname.Size = new System.Drawing.Size(199, 26);
+            this.txt_surname.TabIndex = 30;
             // 
-            // textBox5
+            // txt_email
             // 
-            this.textBox5.Location = new System.Drawing.Point(779, 187);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(199, 26);
-            this.textBox5.TabIndex = 29;
+            this.txt_email.Location = new System.Drawing.Point(779, 187);
+            this.txt_email.Name = "txt_email";
+            this.txt_email.Size = new System.Drawing.Size(199, 26);
+            this.txt_email.TabIndex = 29;
             // 
-            // textBox6
+            // txt_cell_number
             // 
-            this.textBox6.Location = new System.Drawing.Point(779, 152);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(199, 26);
-            this.textBox6.TabIndex = 28;
+            this.txt_cell_number.Location = new System.Drawing.Point(779, 152);
+            this.txt_cell_number.Name = "txt_cell_number";
+            this.txt_cell_number.Size = new System.Drawing.Size(199, 26);
+            this.txt_cell_number.TabIndex = 28;
             // 
             // label8
             // 
@@ -286,25 +288,27 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(204, 23);
+            this.label6.Location = new System.Drawing.Point(142, 13);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(155, 20);
+            this.label6.Size = new System.Drawing.Size(365, 31);
             this.label6.TabIndex = 1;
-            this.label6.Text = "Current Account info";
+            this.label6.Text = "CURRENT ACCOUNT INFO";
             // 
-            // USERINFO
+            // lstbx_user_info
             // 
-            this.USERINFO.FormattingEnabled = true;
-            this.USERINFO.ItemHeight = 20;
-            this.USERINFO.Location = new System.Drawing.Point(32, 57);
-            this.USERINFO.Name = "USERINFO";
-            this.USERINFO.Size = new System.Drawing.Size(577, 584);
-            this.USERINFO.TabIndex = 0;
+            this.lstbx_user_info.FormattingEnabled = true;
+            this.lstbx_user_info.ItemHeight = 20;
+            this.lstbx_user_info.Location = new System.Drawing.Point(32, 57);
+            this.lstbx_user_info.Name = "lstbx_user_info";
+            this.lstbx_user_info.Size = new System.Drawing.Size(577, 584);
+            this.lstbx_user_info.TabIndex = 0;
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.PastOrderInfo);
+            this.tabPage2.Controls.Add(this.label20);
+            this.tabPage2.Controls.Add(this.dataGridView1);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -312,15 +316,6 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Past orders";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // PastOrderInfo
-            // 
-            this.PastOrderInfo.FormattingEnabled = true;
-            this.PastOrderInfo.ItemHeight = 20;
-            this.PastOrderInfo.Location = new System.Drawing.Point(73, 41);
-            this.PastOrderInfo.Name = "PastOrderInfo";
-            this.PastOrderInfo.Size = new System.Drawing.Size(738, 564);
-            this.PastOrderInfo.TabIndex = 0;
             // 
             // tabPage3
             // 
@@ -348,19 +343,19 @@
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.comboBox4);
+            this.splitContainer1.Panel2.Controls.Add(this.cmb_time);
             this.splitContainer1.Panel2.Controls.Add(this.label18);
             this.splitContainer1.Panel2.Controls.Add(this.label17);
             this.splitContainer1.Panel2.Controls.Add(this.label16);
             this.splitContainer1.Panel2.Controls.Add(this.label15);
-            this.splitContainer1.Panel2.Controls.Add(this.comboBox3);
-            this.splitContainer1.Panel2.Controls.Add(this.comboBox2);
-            this.splitContainer1.Panel2.Controls.Add(this.comboBox1);
-            this.splitContainer1.Panel2.Controls.Add(this.radioButton3);
-            this.splitContainer1.Panel2.Controls.Add(this.textBox1);
-            this.splitContainer1.Panel2.Controls.Add(this.radioButton2);
-            this.splitContainer1.Panel2.Controls.Add(this.Small);
-            this.splitContainer1.Panel2.Controls.Add(this.textBox2);
+            this.splitContainer1.Panel2.Controls.Add(this.cmb_year);
+            this.splitContainer1.Panel2.Controls.Add(this.cmb_month);
+            this.splitContainer1.Panel2.Controls.Add(this.cmb_date);
+            this.splitContainer1.Panel2.Controls.Add(this.rb_large);
+            this.splitContainer1.Panel2.Controls.Add(this.txt_destination);
+            this.splitContainer1.Panel2.Controls.Add(this.rb_medium);
+            this.splitContainer1.Panel2.Controls.Add(this.rb_small);
+            this.splitContainer1.Panel2.Controls.Add(this.txt_pick_up_point);
             this.splitContainer1.Size = new System.Drawing.Size(724, 551);
             this.splitContainer1.SplitterDistance = 241;
             this.splitContainer1.TabIndex = 10;
@@ -418,20 +413,20 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Pick up point";
             // 
-            // comboBox4
+            // cmb_time
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.cmb_time.FormattingEnabled = true;
+            this.cmb_time.Items.AddRange(new object[] {
             "08 : 00",
             "10 : 00",
             "12 : 00",
             "14 : 00",
             "16 : 00",
             "18 : 00"});
-            this.comboBox4.Location = new System.Drawing.Point(17, 435);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 28);
-            this.comboBox4.TabIndex = 16;
+            this.cmb_time.Location = new System.Drawing.Point(17, 435);
+            this.cmb_time.Name = "cmb_time";
+            this.cmb_time.Size = new System.Drawing.Size(121, 28);
+            this.cmb_time.TabIndex = 16;
             // 
             // label18
             // 
@@ -475,23 +470,23 @@
             this.label15.Text = "Small Truck : 5 Ton\'s , 35 cubic meters";
             this.label15.Click += new System.EventHandler(this.Label15_Click);
             // 
-            // comboBox3
+            // cmb_year
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cmb_year.FormattingEnabled = true;
+            this.cmb_year.Items.AddRange(new object[] {
             "2019",
             "2020",
             "2021",
             "2020"});
-            this.comboBox3.Location = new System.Drawing.Point(300, 391);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 28);
-            this.comboBox3.TabIndex = 11;
+            this.cmb_year.Location = new System.Drawing.Point(300, 391);
+            this.cmb_year.Name = "cmb_year";
+            this.cmb_year.Size = new System.Drawing.Size(121, 28);
+            this.cmb_year.TabIndex = 11;
             // 
-            // comboBox2
+            // cmb_month
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cmb_month.FormattingEnabled = true;
+            this.cmb_month.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
@@ -504,15 +499,15 @@
             "10",
             "11",
             "12"});
-            this.comboBox2.Location = new System.Drawing.Point(156, 391);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 28);
-            this.comboBox2.TabIndex = 10;
+            this.cmb_month.Location = new System.Drawing.Point(156, 391);
+            this.cmb_month.Name = "cmb_month";
+            this.cmb_month.Size = new System.Drawing.Size(121, 28);
+            this.cmb_month.TabIndex = 10;
             // 
-            // comboBox1
+            // cmb_date
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmb_date.FormattingEnabled = true;
+            this.cmb_date.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
@@ -544,61 +539,61 @@
             "29",
             "30",
             "31"});
-            this.comboBox1.Location = new System.Drawing.Point(17, 391);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 28);
-            this.comboBox1.TabIndex = 9;
+            this.cmb_date.Location = new System.Drawing.Point(17, 391);
+            this.cmb_date.Name = "cmb_date";
+            this.cmb_date.Size = new System.Drawing.Size(121, 28);
+            this.cmb_date.TabIndex = 9;
             // 
-            // radioButton3
+            // rb_large
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton3.Location = new System.Drawing.Point(318, 29);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(68, 24);
-            this.radioButton3.TabIndex = 6;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Large";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rb_large.AutoSize = true;
+            this.rb_large.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.rb_large.Location = new System.Drawing.Point(318, 29);
+            this.rb_large.Name = "rb_large";
+            this.rb_large.Size = new System.Drawing.Size(68, 24);
+            this.rb_large.TabIndex = 6;
+            this.rb_large.TabStop = true;
+            this.rb_large.Text = "Large";
+            this.rb_large.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txt_destination
             // 
-            this.textBox1.Location = new System.Drawing.Point(17, 221);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(429, 26);
-            this.textBox1.TabIndex = 7;
+            this.txt_destination.Location = new System.Drawing.Point(17, 221);
+            this.txt_destination.Name = "txt_destination";
+            this.txt_destination.Size = new System.Drawing.Size(429, 26);
+            this.txt_destination.TabIndex = 7;
             // 
-            // radioButton2
+            // rb_medium
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton2.Location = new System.Drawing.Point(169, 29);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(83, 24);
-            this.radioButton2.TabIndex = 5;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Medium";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rb_medium.AutoSize = true;
+            this.rb_medium.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.rb_medium.Location = new System.Drawing.Point(169, 29);
+            this.rb_medium.Name = "rb_medium";
+            this.rb_medium.Size = new System.Drawing.Size(83, 24);
+            this.rb_medium.TabIndex = 5;
+            this.rb_medium.TabStop = true;
+            this.rb_medium.Text = "Medium";
+            this.rb_medium.UseVisualStyleBackColor = true;
             // 
-            // Small
+            // rb_small
             // 
-            this.Small.AutoSize = true;
-            this.Small.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Small.Location = new System.Drawing.Point(40, 33);
-            this.Small.Name = "Small";
-            this.Small.Size = new System.Drawing.Size(66, 24);
-            this.Small.TabIndex = 4;
-            this.Small.TabStop = true;
-            this.Small.Text = "Small";
-            this.Small.UseVisualStyleBackColor = true;
+            this.rb_small.AutoSize = true;
+            this.rb_small.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.rb_small.Location = new System.Drawing.Point(40, 33);
+            this.rb_small.Name = "rb_small";
+            this.rb_small.Size = new System.Drawing.Size(66, 24);
+            this.rb_small.TabIndex = 4;
+            this.rb_small.TabStop = true;
+            this.rb_small.Text = "Small";
+            this.rb_small.UseVisualStyleBackColor = true;
             // 
-            // textBox2
+            // txt_pick_up_point
             // 
-            this.textBox2.Location = new System.Drawing.Point(17, 294);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(429, 26);
-            this.textBox2.TabIndex = 8;
+            this.txt_pick_up_point.Location = new System.Drawing.Point(17, 294);
+            this.txt_pick_up_point.Multiline = true;
+            this.txt_pick_up_point.Name = "txt_pick_up_point";
+            this.txt_pick_up_point.Size = new System.Drawing.Size(429, 26);
+            this.txt_pick_up_point.TabIndex = 8;
             // 
             // label5
             // 
@@ -624,6 +619,25 @@
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(42, 65);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(739, 435);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label20.Location = new System.Drawing.Point(327, 23);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(184, 29);
+            this.label20.TabIndex = 1;
+            this.label20.Text = "PAST ORDERS";
+            // 
             // frm_Customer_Dash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -632,17 +646,18 @@
             this.ClientSize = new System.Drawing.Size(1123, 749);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.tbc_Customer);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frm_Customer_Dash";
             this.Text = "Form3";
-            this.tabControl1.ResumeLayout(false);
+            this.tbc_Customer.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
@@ -651,6 +666,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -658,16 +674,16 @@
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl tbc_Customer;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton Small;
+        private System.Windows.Forms.TextBox txt_pick_up_point;
+        private System.Windows.Forms.TextBox txt_destination;
+        private System.Windows.Forms.RadioButton rb_large;
+        private System.Windows.Forms.RadioButton rb_medium;
+        private System.Windows.Forms.RadioButton rb_small;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -676,33 +692,34 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ListBox USERINFO;
+        private System.Windows.Forms.ListBox lstbx_user_info;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txt_old_pass;
+        private System.Windows.Forms.TextBox txt_name;
+        private System.Windows.Forms.TextBox txt_surname;
+        private System.Windows.Forms.TextBox txt_email;
+        private System.Windows.Forms.TextBox txt_cell_number;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txt_re_pass;
+        private System.Windows.Forms.TextBox txt_new_pass;
         private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ListBox PastOrderInfo;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button btn_reset_pass;
+        private System.Windows.Forms.Button btn_update;
+        private System.Windows.Forms.ComboBox cmb_year;
+        private System.Windows.Forms.ComboBox cmb_month;
+        private System.Windows.Forms.ComboBox cmb_date;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox cmb_time;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
