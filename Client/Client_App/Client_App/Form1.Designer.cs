@@ -36,6 +36,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btn_login = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btn_new_customer = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,7 +87,6 @@
             this.label3.Size = new System.Drawing.Size(81, 25);
             this.label3.TabIndex = 4;
             this.label3.Text = "LOGIN";
-            this.label3.Click += new System.EventHandler(this.Label3_Click);
             // 
             // btn_login
             // 
@@ -96,6 +97,7 @@
             this.btn_login.TabIndex = 5;
             this.btn_login.Text = "Login";
             this.btn_login.UseVisualStyleBackColor = true;
+            this.btn_login.Click += new System.EventHandler(this.Btn_login_Click);
             // 
             // pictureBox1
             // 
@@ -105,12 +107,33 @@
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label4.Location = new System.Drawing.Point(12, 220);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(122, 13);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Don\'t have an account?";
+            // 
+            // btn_new_customer
+            // 
+            this.btn_new_customer.Location = new System.Drawing.Point(112, 248);
+            this.btn_new_customer.Name = "btn_new_customer";
+            this.btn_new_customer.Size = new System.Drawing.Size(87, 25);
+            this.btn_new_customer.TabIndex = 10;
+            this.btn_new_customer.Text = "Sign up";
+            this.btn_new_customer.UseVisualStyleBackColor = true;
+            // 
             // frm_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
             this.ClientSize = new System.Drawing.Size(234, 294);
+            this.Controls.Add(this.btn_new_customer);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_login);
             this.Controls.Add(this.label3);
@@ -136,6 +159,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btn_login;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btn_new_customer;
     }
 }
 

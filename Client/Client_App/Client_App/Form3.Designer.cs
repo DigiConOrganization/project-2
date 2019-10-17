@@ -173,7 +173,7 @@
             this.label14.Size = new System.Drawing.Size(170, 20);
             this.label14.TabIndex = 35;
             this.label14.Text = "Repeat New Password";
-            this.label14.Click += new System.EventHandler(this.Label14_Click);
+            
             // 
             // label13
             // 
@@ -283,7 +283,7 @@
             this.label7.Size = new System.Drawing.Size(94, 20);
             this.label7.TabIndex = 2;
             this.label7.Text = "Update Info";
-            this.label7.Click += new System.EventHandler(this.Label7_Click);
+            
             // 
             // label6
             // 
@@ -369,7 +369,7 @@
             this.label19.Size = new System.Drawing.Size(119, 20);
             this.label19.TabIndex = 4;
             this.label19.Text = "Time of pick up ";
-            this.label19.Click += new System.EventHandler(this.Label19_Click);
+            
             // 
             // label1
             // 
@@ -380,7 +380,7 @@
             this.label1.Size = new System.Drawing.Size(83, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Truck Size";
-            this.label1.Click += new System.EventHandler(this.Label1_Click);
+            
             // 
             // label2
             // 
@@ -391,7 +391,7 @@
             this.label2.Size = new System.Drawing.Size(90, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Destination";
-            this.label2.Click += new System.EventHandler(this.Label2_Click);
+           
             // 
             // label4
             // 
@@ -468,7 +468,7 @@
             this.label15.Size = new System.Drawing.Size(278, 20);
             this.label15.TabIndex = 12;
             this.label15.Text = "Small Truck : 5 Ton\'s , 35 cubic meters";
-            this.label15.Click += new System.EventHandler(this.Label15_Click);
+            
             // 
             // cmb_year
             // 
@@ -605,11 +605,11 @@
             this.label5.Size = new System.Drawing.Size(173, 25);
             this.label5.TabIndex = 15;
             this.label5.Text = "Customer Dash";
-            this.label5.Click += new System.EventHandler(this.Label5_Click);
+            
             // 
             // toolTip1
             // 
-            this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.ToolTip1_Popup);
+         
             // 
             // pictureBox1
             // 
