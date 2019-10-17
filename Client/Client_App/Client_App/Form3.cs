@@ -17,44 +17,6 @@ namespace Client_App
             InitializeComponent();
         }
 
-        private void Label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label14_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ToolTip1_Popup(object sender, PopupEventArgs e)
-        {
-
-        }
-
-        private void Label15_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label19_Click(object sender, EventArgs e)
-        {
-
-        }
+      
     }
 }

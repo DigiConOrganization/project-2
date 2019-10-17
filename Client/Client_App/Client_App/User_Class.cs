@@ -28,7 +28,7 @@ namespace Client_App
         public string Customer_username { get => customer_username; set => customer_username = value; }
         public string Customer_password { get => customer_password; set => customer_password = value; }
 
-        public bool GetEmployeeLoginInfo()             // Collecting user data.
+        public bool GetCustomerLoginInfo()             // Collecting user data.
         {
 
             Datahandler dtHandler = new Datahandler();

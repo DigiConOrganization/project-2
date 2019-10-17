@@ -21,10 +21,31 @@ namespace Client_App
         {
             int customer_id;
             customer_id = 0;
+          
+            
             
             User_Class us = new User_Class(customer_id,txt_login_name.Text,txt_login_password.Text);
+            if (us.GetCustomerLoginInfo())
+            {
+                frm_Customer_Dash cd = new frm_Customer_Dash();         //If GetCustomerLoginInfo = true. move to frm_Customer_Dash
+                cd.Region = this.Region;
+                cd.Show();
+                this.Hide();
 
+            }
+            else
+            {
+                MessageBox.Show("The username or password is incorect");
+            }
 
+        }
+
+        private void Btn_new_customer_Click(object sender, EventArgs e)
+        {
+            frm_Sign_up fs = new frm_Sign_up();                 // closing frm_login and openong frm_Sign_up.
+            fs.Region = this.Region;
+            fs.Show();
+            this.Hide();
         }
     }
 }

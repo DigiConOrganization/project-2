@@ -125,6 +125,7 @@
             this.btn_new_customer.TabIndex = 10;
             this.btn_new_customer.Text = "Sign up";
             this.btn_new_customer.UseVisualStyleBackColor = true;
+            this.btn_new_customer.Click += new System.EventHandler(this.Btn_new_customer_Click);
             // 
             // frm_Login
             // 
