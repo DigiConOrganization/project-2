@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		2y_project\AntiNoob_Class.cs = 2y_project\AntiNoob_Class.cs
 		2y_project\CustomerClass.cs = 2y_project\CustomerClass.cs
 		2y_project\DataHandlerClass.cs = 2y_project\DataHandlerClass.cs
+		2y_project\Employee_Class.cs = 2y_project\Employee_Class.cs
 		2y_project\Fuel_Type_Class.cs = 2y_project\Fuel_Type_Class.cs
 		2y_project\oder_trip_details_Class.cs = 2y_project\oder_trip_details_Class.cs
 		2y_project\PriceCalculator_Class.cs = 2y_project\PriceCalculator_Class.cs

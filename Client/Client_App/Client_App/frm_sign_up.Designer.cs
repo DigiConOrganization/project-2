@@ -53,6 +53,7 @@
             this.btn_signup.TabIndex = 12;
             this.btn_signup.Text = "Sign up";
             this.btn_signup.UseVisualStyleBackColor = true;
+            this.btn_signup.Click += new System.EventHandler(this.Btn_signup_Click);
             // 
             // label3
             // 
@@ -64,7 +65,6 @@
             this.label3.Size = new System.Drawing.Size(148, 25);
             this.label3.TabIndex = 11;
             this.label3.Text = "Sign Up form";
-            
             // 
             // label2
             // 
