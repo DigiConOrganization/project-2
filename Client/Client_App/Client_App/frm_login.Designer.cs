@@ -37,6 +37,7 @@
             this.txt_emp_username = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,7 +80,7 @@
             this.btn_login.BackColor = System.Drawing.Color.DarkSlateGray;
             this.btn_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_login.ForeColor = System.Drawing.Color.White;
-            this.btn_login.Location = new System.Drawing.Point(61, 258);
+            this.btn_login.Location = new System.Drawing.Point(64, 239);
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(190, 46);
             this.btn_login.TabIndex = 50;
@@ -123,12 +124,25 @@
             this.label1.TabIndex = 46;
             this.label1.Text = "Username";
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.LinkColor = System.Drawing.Color.White;
+            this.linkLabel1.Location = new System.Drawing.Point(87, 303);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(126, 13);
+            this.linkLabel1.TabIndex = 54;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Not a user? sign up here.";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1_LinkClicked);
+            // 
             // frm_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(308, 325);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.pictureBox1);
@@ -156,6 +170,7 @@
         private System.Windows.Forms.TextBox txt_emp_username;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 

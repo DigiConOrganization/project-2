@@ -51,5 +51,13 @@ namespace Client_App
             }
 
         }
+
+        private void LinkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frm_Sign_up fs = new frm_Sign_up();                 // closing frm_login and openong frm_Sign_up.
+            fs.Region = this.Region;
+            fs.Show();
+            this.Hide();
+        }
     }
 }
