@@ -30,18 +30,19 @@ namespace Client_App
         private void Btn_login_Click_1(object sender, EventArgs e)
         {
 
-            int customer_id;
-            customer_id = 0;
+            
 
 
 
-            User_Class us = new User_Class(customer_id, txt_emp_username.Text, txt_emp_pass.Text);
+            User_Class us = new User_Class( txt_customer_username.Text, txt_customer_pass.Text);
             if (us.GetCustomerLoginInfo())
             {
                 frm_Customer_Dash cd = new frm_Customer_Dash();         //If GetCustomerLoginInfo = true. move to frm_Customer_Dash
                 cd.Region = this.Region;
+                cd.c_ID = us.Customer_ID;
                 cd.Show();
                 this.Hide();
+                
 
 
             }

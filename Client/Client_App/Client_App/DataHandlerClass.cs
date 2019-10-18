@@ -65,7 +65,7 @@ namespace Client_App
         #endregion
 
         #region Pull Data
-      
+        
         public DataTable GetDataFromSource(string storedProcedureName)  //display in data gird view.
         {
 

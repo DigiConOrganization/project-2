@@ -33,8 +33,8 @@
             this.label11 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_login = new System.Windows.Forms.Button();
-            this.txt_emp_pass = new System.Windows.Forms.TextBox();
-            this.txt_emp_username = new System.Windows.Forms.TextBox();
+            this.txt_customer_pass = new System.Windows.Forms.TextBox();
+            this.txt_customer_username = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
@@ -88,19 +88,19 @@
             this.btn_login.UseVisualStyleBackColor = false;
             this.btn_login.Click += new System.EventHandler(this.Btn_login_Click_1);
             // 
-            // txt_emp_pass
+            // txt_customer_pass
             // 
-            this.txt_emp_pass.Location = new System.Drawing.Point(142, 204);
-            this.txt_emp_pass.Name = "txt_emp_pass";
-            this.txt_emp_pass.Size = new System.Drawing.Size(100, 20);
-            this.txt_emp_pass.TabIndex = 49;
+            this.txt_customer_pass.Location = new System.Drawing.Point(142, 204);
+            this.txt_customer_pass.Name = "txt_customer_pass";
+            this.txt_customer_pass.Size = new System.Drawing.Size(100, 20);
+            this.txt_customer_pass.TabIndex = 49;
             // 
-            // txt_emp_username
+            // txt_customer_username
             // 
-            this.txt_emp_username.Location = new System.Drawing.Point(142, 178);
-            this.txt_emp_username.Name = "txt_emp_username";
-            this.txt_emp_username.Size = new System.Drawing.Size(100, 20);
-            this.txt_emp_username.TabIndex = 48;
+            this.txt_customer_username.Location = new System.Drawing.Point(142, 178);
+            this.txt_customer_username.Name = "txt_customer_username";
+            this.txt_customer_username.Size = new System.Drawing.Size(100, 20);
+            this.txt_customer_username.TabIndex = 48;
             // 
             // label2
             // 
@@ -147,8 +147,8 @@
             this.Controls.Add(this.label11);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_login);
-            this.Controls.Add(this.txt_emp_pass);
-            this.Controls.Add(this.txt_emp_username);
+            this.Controls.Add(this.txt_customer_pass);
+            this.Controls.Add(this.txt_customer_username);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -166,8 +166,8 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btn_login;
-        private System.Windows.Forms.TextBox txt_emp_pass;
-        private System.Windows.Forms.TextBox txt_emp_username;
+        private System.Windows.Forms.TextBox txt_customer_pass;
+        private System.Windows.Forms.TextBox txt_customer_username;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel linkLabel1;
